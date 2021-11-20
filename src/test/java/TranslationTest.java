@@ -20,7 +20,7 @@ public class TranslationTest {
     public void Test()
     {
         new TranslationTest();
-        Assertions.assertEquals(TranslationTest.func(5), new int[]{0, 1, 0, 1, 0, 0});
+        Assertions.assertArrayEquals(TranslationTest.func(5), new int[]{0, 1, 0, 1, 0, 0});
     }
 
 }
